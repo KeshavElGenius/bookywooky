@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#about{
+    font-size: x-large;
+}
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+    body{
+    font-family:'Times New Roman', Times, serif ;
+    background-color: burlywood;
+    color: darkred;
+    font-size: x-large;
+}
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px 20px;
+}
+#home h3{
+    text-align: center;
+    font-size: large;
+}
+header ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(221, 160, 80);
+}
+header ul li{
+    float: right;
+    padding: 45px 20px;
+}
+header ul li a{
+    color: rgb(53, 0, 151);
+}
+a{
+    color: darkmagenta;
+}
+a:hover{
+    color: darkblue;
+}
+a:visited{
+    color: darkgreen;
+}
+a:active{
+    color: darkred;
+}
+#books ul{
+    list-style-type: none;
+}
+
+#books ul li{
+    float: right;
+    text-align: center;
+    padding: 20px 40px;
+    width: 18.3%;
+}
+#container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+table, tr, td, th{
+    border: black 2px solid;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.list{
+    background-color: rgb(182, 119, 38);
+}
+.list{
+    padding: 20px 70px;
+}
+th{
+    height: 30px;
+    vertical-align: bottom;
+}
+tr:hover{
+    background-color: green;
+    color: wheat;
+}
+tr:nth-child(even) {
+    background-color: darkblue;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: darkgreen;
+    color: white;
+}
+#home h3{
+    font-size: x-large;
+}
+<!--Banner-->
+.banner{
+    max-height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider{
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 0;
+    animation-name: slide;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+.slider img{
+    position: relative;
+    width: 20%;
+}
+@keyframes slide{
+    0%{left: 0%;}
+    33%{left: -100%;}
+    66%{left: -200%;}
+    100%{left: 0%;}
+}
+    </style>
+    <title>BOOKY WOOKY</title>
+    <link rel="icon" href="LOGO.jpg" style="border-radius: 50%;">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="LOGO.jpg" alt="LOGO"></div>
+    <ul>
+        <li>
+            <a href="#language">🕉️LANGUAGES</a>
+        </li>
+        <li>
+            <a href="#stores">🛒STORES</a> 
+        </li>
+        <li>
+            <a href="#books">📖BOOKS AVAILIBLE</a>
+        </li>
+        <li>
+            <a href="#about">💼ABOUT US</a>
+        </li>
+        <li>
+            <a href="#home">🏠HOME</a>
+        </li>
+    </ul>
+    <br>
+</header>
+    <section id="home">
+        <u><h1 style="text-align: center;">BOOKY WOOKY</h1></u>
+        <h3>We offer a lot of fun and interesting books to read. We have free ebooks for the following books. You can head on over to our stores to find more books in a hard copy format</h3>
+        <div class="banner">
+        <div class="slider">
+            <div class="slides">
+                <img src="download.jfif" alt="banner" height="500px" width="100%" id="1">
+                <img src="TIN-332 Books from_large.jpg  " alt="banner" height="500px" width="100%" id="2">
+                <img src="banner-1559400_960_720.jpg" alt="banner" height="500px" width="100%" id="3">
+            </div>
+        </div>
+    </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="about">
+        <p>We offer tremendous gathering of books in various classification Fiction, Non-fiction, Biographies, History, Religions, Self – Help, Children We likewise move in immense accumulation of Investments and Management, Computers, Engineering, Medical, College and School content references books proposed by various foundations as schedule the nation over. Other than to this, we likewise offer an expansive gathering of E-Books at reasonable valuing.</p>
+    </section>
+    <hr>
+    <br>
+    <section id="books">
+        <p>We have a wide variety of books to choose from ranging from Harry Potter to My Experiments with truth.</p>
+        <br>
+        <div id="container">
+        <ul>
+            <li>
+                <a target="_blank" href="http://www.freepdfbook.com/7-harry-potter-books/"><img src="910ityjoncL.jpg" alt="" height="300px" width="200px"><figcaption>Harry potter series</figcaption></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://englishcreek.weebly.com/alex-rider-series.html"><img src="81Wh7VgrvOL.jpg" alt="" height="300px" width="200px"><figcaption>Alex Rider Series</figcaption></a>        
+            </li>
+            <li>
+                <a target="_blank" href="https://drive.google.com/drive/folders/122SuNmt8JUmFUXXphbGwlHm6OVJQZiti"><img src="51qGuXN2Q+L.jpg" alt="" height="300px" width="200px"><figcaption>Shiva Trilogy</figcaption></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.mkgandhi.org/ebks/An-Autobiography.pdf"><img src="9789387585201.jpg" alt="" height="300px" width="200px"><figcaption>My Experiments With truth</figcaption></a>
+            </li>
+        </ul>
+    </div>
+</section>
+<br><hr><br>
+<section id="stores">
+    <table border="1px">
+        <tr>
+            <th>
+                STORES
+            </th>
+            <th>
+                CITY
+            </th>
+        </tr>
+        <tr>
+            <td>
+                NOIDA
+            </td>
+            <td>
+                IN GIP MALL OF INDIA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MUMBAI
+            </td>
+            <td>
+                IN HIGH STREET PHOENIX MALL
+            </td>
+        </tr>
+        <tr>
+            <td>
+                JAIPUR
+            </td>
+            <td>
+                IN WORLD TRADE PARK MALL
+            </td>
+        </tr>
+    </table>
+</section>
+<section id="langauage">
+<ul style="list-style-image: url(ICON.jpg);" class="list">
+    <li>ENGLISH</li>
+    <li>HINDI</li>
+    <li>FREMCH</li>
+    <li>SANSKRIT</li>
+    <li>MANY MORE</li>
+</ul>
+</section>
+</body>
+</html>
